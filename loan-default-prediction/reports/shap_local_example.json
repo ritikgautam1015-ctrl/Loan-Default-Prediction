@@ -1,0 +1,68 @@
+{
+  "default_probability": 0.08282003233033208,
+  "predicted_class": 0,
+  "threshold": 0.15,
+  "model_output_units": "log-odds for Default=1",
+  "top_factors": [
+    {
+      "feature": "Age",
+      "description": "Age (input=60)",
+      "shap_value": -0.6711912579082346,
+      "direction": "decreases_risk"
+    },
+    {
+      "feature": "LoanIncomeRatio",
+      "description": "LoanIncomeRatio",
+      "shap_value": 0.4815023423210558,
+      "direction": "increases_risk"
+    },
+    {
+      "feature": "InterestRate",
+      "description": "InterestRate (input=7.83)",
+      "shap_value": -0.3807715189493849,
+      "direction": "decreases_risk"
+    },
+    {
+      "feature": "MonthsEmployed",
+      "description": "MonthsEmployed (input=35)",
+      "shap_value": 0.2243823482588168,
+      "direction": "increases_risk"
+    },
+    {
+      "feature": "EmploymentType_Unemployed",
+      "description": "EmploymentType=Unemployed one-hot indicator (input category=Unemployed)",
+      "shap_value": 0.15592657956149844,
+      "direction": "increases_risk"
+    },
+    {
+      "feature": "CreditScore",
+      "description": "CreditScore (input=770)",
+      "shap_value": -0.14688171986586576,
+      "direction": "decreases_risk"
+    },
+    {
+      "feature": "EmploymentType_Full-time",
+      "description": "EmploymentType=Full-time one-hot indicator (input category=Unemployed)",
+      "shap_value": 0.060044742093765015,
+      "direction": "increases_risk"
+    },
+    {
+      "feature": "HasDependents_Yes",
+      "description": "HasDependents=Yes one-hot indicator (input category=No)",
+      "shap_value": 0.058215427118328014,
+      "direction": "increases_risk"
+    },
+    {
+      "feature": "NumCreditLines",
+      "description": "NumCreditLines (input=2)",
+      "shap_value": -0.05730327379736526,
+      "direction": "decreases_risk"
+    },
+    {
+      "feature": "HasDependents_No",
+      "description": "HasDependents=No one-hot indicator (input category=No)",
+      "shap_value": 0.05705477121728458,
+      "direction": "increases_risk"
+    }
+  ]
+}

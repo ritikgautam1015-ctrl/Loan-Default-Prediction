@@ -1,0 +1,15 @@
+{
+  "actual_defaults": 4448,
+  "predicted_high_risk_borrowers": 9766,
+  "defaults_captured": 2590,
+  "potentially_preventable_defaults": 2590,
+  "intervention_success_rate_assumed": 0.3,
+  "estimated_prevented_defaults": 777.0,
+  "estimated_remaining_defaults": 3671.0,
+  "estimated_npa_reduction": 0.17468525179856115,
+  "actual_default_loan_exposure": 645627356.0,
+  "captured_default_loan_exposure": 413916211.0,
+  "missed_default_loan_exposure": 231711145.0,
+  "classification_threshold": 0.15,
+  "label": "SIMULATED / ASSUMED; not measured real-world NPA reduction"
+}

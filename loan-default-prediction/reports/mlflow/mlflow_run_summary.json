@@ -1,0 +1,40 @@
+{
+  "experiment_name": "loan-default-prediction",
+  "run_id": "661ab9f2be8e40e39ba035232b674fc9",
+  "model_type": "Logistic Regression",
+  "model_version": "1.0.0",
+  "decision_threshold": 0.15,
+  "tracking_uri": "file:///C:/Users/HP/Downloads/Loan%20Detection/loan-default-prediction/mlruns",
+  "logged_parameters": {
+    "model_type": "Logistic Regression",
+    "model_version": "1.0.0",
+    "decision_threshold": "0.15",
+    "calibrated": "False",
+    "random_state": "42",
+    "C": "0.01",
+    "solver": "lbfgs",
+    "max_iter": "1000",
+    "class_weight": "None"
+  },
+  "logged_metrics": {
+    "validation_roc_auc": 0.7592343409788033,
+    "validation_pr_auc": 0.3346213383957364,
+    "validation_accuracy": 0.7641376429429273,
+    "validation_precision": 0.2652058160966619,
+    "validation_recall": 0.5822841726618705,
+    "validation_f1": 0.3644294357675531,
+    "validation_brier_score": 0.0904904123204467,
+    "test_roc_auc": 0.7658561321080487,
+    "test_pr_auc": 0.3393620821785114,
+    "test_accuracy": 0.7669112079993734,
+    "test_precision": 0.27020927369716863,
+    "test_recall": 0.5921762589928058,
+    "test_f1": 0.3710904480135249,
+    "test_brier_score": 0.08998848308545837
+  },
+  "training_rows": 178742,
+  "validation_rows": 38302,
+  "test_rows": 38303,
+  "feature_count": 43,
+  "model_logged": true
+}

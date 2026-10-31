@@ -1,0 +1,78 @@
+{
+  "model_name": "Logistic Regression",
+  "target": "Default",
+  "primary_metric": "ROC-AUC",
+  "validation_roc_auc": 0.7592343409788033,
+  "test_roc_auc": 0.7658561321080487,
+  "random_state": 42,
+  "tuned_parameters": {
+    "solver": "lbfgs",
+    "class_weight": null,
+    "C": 0.01
+  },
+  "test_metrics": {
+    "ROC_AUC": 0.7658561321080487,
+    "PR_AUC": 0.3393620821785114,
+    "Accuracy": 0.7669112079993734,
+    "Precision": 0.27020927369716863,
+    "Recall": 0.5921762589928058,
+    "F1": 0.3710904480135249,
+    "Confusion_Matrix": [
+      [
+        26741,
+        7114
+      ],
+      [
+        1814,
+        2634
+      ]
+    ],
+    "TN": 26741,
+    "FP": 7114,
+    "FN": 1814,
+    "TP": 2634,
+    "Threshold": 0.15,
+    "Brier_Score": 0.08998848308545837
+  },
+  "test_confusion_matrix": [
+    [
+      26741,
+      7114
+    ],
+    [
+      1814,
+      2634
+    ]
+  ],
+  "serving_input": "Raw predictor columns; LoanID and Default are not required.",
+  "preprocessing_artifact": "Phase 2 fitted preprocessor.joblib",
+  "model_version": "1.0.0",
+  "validation_pr_auc": 0.3346213383957364,
+  "test_pr_auc": 0.3393620821785114,
+  "classification_threshold": 0.15,
+  "threshold_selection": "Validation F1; within 0.005 of max F1, prefer recall then precision.",
+  "calibrated": false,
+  "calibration_method": null,
+  "calibration_selection_rule": "At least 5% Brier improvement; ROC-AUC and PR-AUC drops <= 0.01.",
+  "validation_metrics": {
+    "ROC_AUC": 0.7592343409788033,
+    "PR_AUC": 0.3346213383957364,
+    "Brier_Score": 0.0904904123204467,
+    "Accuracy": 0.7641376429429273,
+    "Precision": 0.2652058160966619,
+    "Recall": 0.5822841726618705,
+    "F1": 0.3644294357675531,
+    "Confusion_Matrix": [
+      [
+        26678,
+        7176
+      ],
+      [
+        1858,
+        2590
+      ]
+    ],
+    "Default_Rate": 0.11612970602057333
+  },
+  "intervention_success_rate_assumed": 0.3
+}

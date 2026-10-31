@@ -1,0 +1,34 @@
+{
+  "methodology": {
+    "calibration_fit_data": "training split only",
+    "validation_used_for": "candidate comparison and selection",
+    "minimum_brier_relative_improvement": 0.05,
+    "maximum_roc_auc_drop": 0.01,
+    "maximum_pr_auc_drop": 0.01,
+    "selected_method": null,
+    "calibrated_model_selected": false
+  },
+  "validation_metrics": {
+    "uncalibrated": {
+      "ROC_AUC": 0.7592343409788033,
+      "PR_AUC": 0.3346213383957364,
+      "Brier_Score": 0.0904904123204467
+    },
+    "sigmoid": {
+      "ROC_AUC": 0.7592234034595446,
+      "PR_AUC": 0.3346721358396364,
+      "Brier_Score": 0.09048812309625458
+    },
+    "isotonic": {
+      "ROC_AUC": 0.7590764475617473,
+      "PR_AUC": 0.332479105934198,
+      "Brier_Score": 0.09048872752559031
+    },
+    "selected": {
+      "ROC_AUC": 0.7592343409788033,
+      "PR_AUC": 0.3346213383957364,
+      "Brier_Score": 0.0904904123204467
+    }
+  },
+  "best_calibrated_candidate": "sigmoid"
+}
